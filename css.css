@@ -1,0 +1,211 @@
+
+
+.sidebar {
+  background-color:#000;
+  color:#fff;
+  width:250px;
+  height:100vh;
+  padding:20px;
+  box-sizing:border-box;
+  position:fixed;
+  top:0;
+  left:0;
+  display:flex;
+  flex-direction:column;
+  align-items:center
+}
+
+.sidebar-title {
+  font-size:28px;
+  margin-bottom:20px;
+  text-align:center
+}
+
+.sidebar img {
+  width:120px;
+  height:auto;
+  margin-bottom:20px;
+  border-radius:10px
+}
+
+.sidebar a {
+  color:#fff;
+  text-decoration:none;
+  margin-top:5px;
+  background-color:#007a00;
+  padding:10px 15px;
+  border-radius:8px;
+  font-weight:bold;
+  transition:background-color .3s
+}
+
+.sidebar a:hover {
+  background-color:#005a00
+}
+
+.main-content {
+  margin-left:250px;
+  padding:40px;
+  max-width:1000px;
+  box-sizing:border-box;
+  overflow:hidden
+}
+
+.content1,.content2 {
+  display:flex;
+  gap:30px;
+  align-items:center;
+  margin-bottom:40px
+}
+
+.content1 img,.content2 img {
+  width:20px;
+  height:auto;
+  border-radius:10px
+}
+
+.content1 .text,.content2 .text {
+  flex:1
+}
+
+.equipment-section {
+  margin-bottom:40px
+}
+
+.equipment-section img {
+  width:100%;
+  height:auto;
+  max-width:400px;
+  border-radius:10px;
+  display:block;
+  margin:0 auto
+}
+
+.equipment-section h3 {
+  text-align:center;
+  margin-top:10px
+}
+
+.equipment-list ul {
+  list-style-type:none;
+  padding-left:0
+}
+
+.equipment-list li {
+  margin-bottom:10px;
+  font-size:16px
+}
+
+.images1099 img {
+  width:50%;
+  height:auto;
+  display:block;
+  margin:0 auto
+}
+
+.etiquette {
+  margin-bottom:40px;
+  max-width:220px
+}
+
+.etiquette-examples {
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center
+}
+
+.etiquette-examples img {
+  width:180px;
+  height:auto;
+  border-radius:10px
+}
+
+@media(max-width:768px){
+  .main-content {
+      margin-left:0;
+      padding:20px
+  }
+
+  .content1 img,.content2 img {
+      width:100%
+  }
+
+  .equipment-section img {
+      width:100%;
+      max-width:100%
+  }
+
+  .content1,.content2 {
+      flex-direction:column
+  }
+
+  .images1099 img {
+      width:80%
+  }
+
+  .etiquette-examples img {
+      width:150px
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  float: right;
+}
+
+.container {
+  display: flex
+}
+
+.sidebar {
+  width: 250px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0
+}
+
+.content {
+  margin-left: 350px;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-grow: 1
+}
+
+.content2 {
+  height: 30px;
+  width: auto
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+  box-sizing: border-box
+}
+
+.sidebar {
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+  box-sizing: border-box
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif
+}

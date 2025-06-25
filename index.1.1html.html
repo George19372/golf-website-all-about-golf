@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All About Golf</title>
+  <link rel="stylesheet" href="C:\Users\computing\Desktop\George Lewis\George Lewis Coding\Most recnet draft 8\FINAL\css.css">
+</head>
+<body>
+  <div class="sidebar">
+    <img src="C:\Users\computing\Downloads\ChatGPT Image May 9, 2025, 10_04_27 AM.png" alt="logo" class="logo">
+    <div class="sidebar-title">How To Play Golf</div>
+    <div class="sidebar-menu">
+      Golf Joke of the Day:
+      <p id="demo"></p>
+    </div>
+  </div>
+
+  <div class="main-content">
+    
+    <div class="content1">
+      <img src="C:\Users\computing\Desktop\George Lewis\George Lewis Coding\DRafts and images\IMAGES\beutifull golf course.jpeg" alt="Golf Image">
+      <div class="text">
+        <h2>Welcome to All About Golf</h2>
+        <p>
+          This is an interactive website for beginners and regular golfers to gain knoledge about golf,
+          learn how to play, get coaching, and explore everything around golfing.
+        </p>
+      </div>
+    </div>
+
+    <div class="content2">
+      <img src="C:\Users\computing\Desktop\George Lewis\George Lewis Coding\DRafts and images\IMAGES\Golf mapping course.jpeg" alt="Beautiful Golf Course">
+      <div class="text">
+        <h2>About this page</h2>
+        <p>
+          Welcome to <strong>All About Golf</strong>, your one stop site for evreything you need to know.
+          Whether your just starting or already a good golfer, this site gives helpful ideas like tips, 
+          techniques, coaching info and more. Getting more confident on the course helps you play better!
+        </p>
+      </div>
+    </div>
+
+    <div class="content2">
+      <h3>Click any image to go to other pages below ↓</h3>
+      <div class="images">
+        <a href="C:\Users\computing\Desktop\George Lewis\George Lewis Coding\MOST RECENT FINAL\equitment.2.html">
+          <img src="C:\Users\computing\Desktop\George Lewis\George Lewis Coding\DRafts and images\IMAGES\Equitment image.jpeg" alt="Golf Equipment">
+        </a>
+        <a href="C:\Users\computing\Desktop\George Lewis\George Lewis Coding\MOST RECENT FINAL\instrcutions.2.html">
+          <img src="C:\Users\computing\Desktop\George Lewis\George Lewis Coding\DRafts and images\IMAGES\Instrctuions.jpeg" alt="Golf Instructions">
+        </a>
+        <a href="C:\Users\computing\Desktop\George Lewis\George Lewis Coding\MOST RECENT FINAL\rules.2.html">
+          <img src="C:\Users\computing\Desktop\George Lewis\George Lewis Coding\DRafts and images\IMAGES\Rules.jpeg" alt="Golf Rules">
+        </a>
+        <a href="C:\Users\computing\Desktop\George Lewis\George Lewis Coding\MOST RECENT FINAL\coaching.2.html">
+          <img src="C:\Users\computing\Desktop\George Lewis\George Lewis Coding\DRafts and images\IMAGES\golf swing Screenshot_21-6-2025_1874_.jpeg" alt="Golf Coaching">
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const jokes = [
+      "Q: Why did the golfer bring two pairs of pants?<br>A: In case they got a hole in one!",
+      "Q: What is a golfer’s favorite dance move?<br>A: The bogey.",
+      "Q: Why do golfers carry an extra shirt?<br>A: In case they get a hole in one.",
+      "Q: Why did the golfer go to jail?<br>A: Because they shot under par... in a no-shooting zone!",
+      "Q: How do golfers stay in shape?<br>A: By swinging into action!"
+    ];
+    const randomIndex = Math.floor(Math.random() * jokes.length);
+    document.getElementById("demo").innerHTML = jokes[randomIndex];
+  </script>
+</body>
+</html>
